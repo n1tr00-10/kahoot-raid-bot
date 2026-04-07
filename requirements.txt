@@ -1,0 +1,3 @@
+pip install kahoot
+
+python installed
