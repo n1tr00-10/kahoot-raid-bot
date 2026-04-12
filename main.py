@@ -12,7 +12,7 @@ async def join_one(pin, name, retry=2):
             print(f"{name} joined")
             return True
         except:
-            await asyncio.sleep(0.5)
+            await asyncio.sleep(0.1)
     return False
 
 def worker(pin, name):
